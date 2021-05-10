@@ -71,4 +71,52 @@
   .clear {
     clear: both;
   }
-  
+
+  /* AGGIUNTA MEDIA QUERY */
+
+  @media screen and (max-width:420px) {
+     
+    #lezioni, #why{
+          background-color: #f2f2cd;
+        }
+
+    #lezioni.container .row{
+        width:100%;
+        text-align: center;
+        margin-top: 5px;
+        
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    width:100%;
+    float: left;
+    }
+
+    #steps.container.grey .row{
+        width:100%;
+        text-align: center;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+
+    #why.container.grey .row{
+        width:100%;
+        text-align: center;
+    }
+
+
+
+
+
+    
+
+
+    
+
+    }
